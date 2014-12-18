@@ -9,7 +9,8 @@ class SQL {
     $q="INSERT INTO things(name) VALUES('Dre')";
     mysqli_query($con, $q);
     $q="SELECT * FROM things";
-    return mysqli_query($con, $q);
+   // return mysqli_query($con, $q);
+   return false;
   }
 }
 ?>
